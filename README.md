@@ -63,7 +63,7 @@ The [dot product][dot-product] (or scalar product) is defined as
 ## Usage
 
 ```javascript
-import gdot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-gdot@deno/mod.js';
+import gdot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-gdot@v0.1.0-deno/mod.js';
 ```
 
 #### gdot( x, y )
@@ -116,7 +116,7 @@ var z = gdot( [], [] );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
-import gdot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-gdot@deno/mod.js';
+import gdot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-gdot@v0.1.0-deno/mod.js';
 
 var rand1 = discreteUniform.factory( 0, 100 );
 var rand2 = discreteUniform.factory( 0, 10 );
