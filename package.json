@@ -45,7 +45,7 @@
     "@stdlib/blas-base-ddot": "^0.1.1",
     "@stdlib/blas-base-gdot": "^0.1.1",
     "@stdlib/blas-base-sdot": "^0.1.1",
-    "@stdlib/string-format": "^0.1.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1",
     "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
