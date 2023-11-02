@@ -56,30 +56,14 @@ The [dot product][dot-product] (or scalar product) is defined as
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/blas-gdot
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var gdot = require( '@stdlib/blas-gdot' );
+import gdot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-gdot@esm/index.mjs';
 ```
 
 #### gdot( x, y )
@@ -87,8 +71,8 @@ var gdot = require( '@stdlib/blas-gdot' );
 Calculates the dot product of vectors `x` and `y`.
 
 ```javascript
-var Int32Array = require( '@stdlib/array-int32' );
-var array = require( '@stdlib/ndarray-array' );
+import Int32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@esm/index.mjs';
+import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
 
 var x = array( new Int32Array( [ 4.0, 2.0, -3.0, 5.0, -1.0 ] ) );
 var y = array( new Int32Array( [ 2.0, 6.0, -1.0, -4.0, 8.0 ] ) );
@@ -130,9 +114,14 @@ var z = gdot( [], [] );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var discreteUniform = require( '@stdlib/random-base-discrete-uniform' );
-var gdot = require( '@stdlib/blas-gdot' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
+import gdot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-gdot@esm/index.mjs';
 
 var rand1 = discreteUniform.factory( 0, 100 );
 var rand2 = discreteUniform.factory( 0, 10 );
@@ -149,6 +138,10 @@ console.log( y );
 
 var z = gdot( x, y );
 console.log( z );
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -180,7 +173,7 @@ console.log( z );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -246,15 +239,15 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [ddot]: http://www.netlib.org/lapack/explore-html/df/d28/group__single__blas__level1.html
 
-[@stdlib/ndarray/array]: https://github.com/stdlib-js/ndarray-array
+[@stdlib/ndarray/array]: https://github.com/stdlib-js/ndarray-array/tree/esm
 
 <!-- <related-links> -->
 
-[@stdlib/blas/base/gdot]: https://github.com/stdlib-js/blas-base-gdot
+[@stdlib/blas/base/gdot]: https://github.com/stdlib-js/blas-base-gdot/tree/esm
 
-[@stdlib/blas/ddot]: https://github.com/stdlib-js/blas-ddot
+[@stdlib/blas/ddot]: https://github.com/stdlib-js/blas-ddot/tree/esm
 
-[@stdlib/blas/sdot]: https://github.com/stdlib-js/blas-sdot
+[@stdlib/blas/sdot]: https://github.com/stdlib-js/blas-sdot/tree/esm
 
 <!-- </related-links> -->
 
