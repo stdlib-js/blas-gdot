@@ -63,6 +63,11 @@ The [dot product][dot-product] (or scalar product) is defined as
 ## Usage
 
 ```javascript
+import gdot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-gdot@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-gdot/tags). For example,
+
+```javascript
 import gdot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-gdot@v0.2.2-esm/index.mjs';
 ```
 
@@ -121,7 +126,7 @@ var z = gdot( [], [] );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
-import gdot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-gdot@v0.2.2-esm/index.mjs';
+import gdot from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-gdot@esm/index.mjs';
 
 var rand1 = discreteUniform.factory( 0, 100 );
 var rand2 = discreteUniform.factory( 0, 10 );
