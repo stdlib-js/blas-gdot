@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-16)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`eae42da`](https://github.com/stdlib-js/stdlib/commit/eae42daf32dff24dab6d478552e41b87b7bd0ded) - **bench:** refactor to use string interpolation in `blas/gdot` [(#10990)](https://github.com/stdlib-js/stdlib/pull/10990) _(by Partha Das)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Partha Das
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-08)
